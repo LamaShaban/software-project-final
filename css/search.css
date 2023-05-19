@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+h6{color: #7b988e;}
+.wrapper {
+  width: 95%;
+  margin-top: 100px;
+}
+#search-container {
+  margin: 1em 0;
+  margin-left: 500px;
+}
+#buttons{margin-left: 300px;}
+#search-container input {
+  background-color: transparent;
+  width: 40%;
+  border-bottom: 2px solid #ffcc00;
+  padding: 1em 0.3em;
+}
+#search-container input:focus {
+  border-bottom-color: #ffcc00;
+}
+#search-container button {
+  padding: 1em 2em;
+  margin-left: 1em;
+  background-color: #ffcc00;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 0.5em;
+}
+.button-value {
+  border: 2px solid #ffcc00;
+  padding: 1em 2.2em;
+  border-radius: 3em;
+  background-color: transparent;
+  color: #ffcc00;
+  cursor: pointer;
+}
+.active {
+  background-color: #ffcc00;
+  color: #ffffff;
+}
+#products {
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns:  auto auto auto auto;
+  grid-column-gap: 1.5em;
+  padding: 2em 0;
+}
+.card{
+  background-color: #ffffff;
+  max-width: 18em;
+  margin-top: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 1em 2em 2.5em #eee;
+}
+.image-container {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  object-fit: contain;
+  height: 15em;
+}
+.contain {
+  padding-top: 1em;
+  color: #110f29;
+}
+.contain h5 {
+  font-weight: 500;
+}
+.hide {
+  display: none;
+}
+@media screen and (max-width: 720px) {
+  img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 10em;
+  }
+  .card {
+    max-width: 10em;
+    margin-top: 1em;
+  }
+  #products {
+    grid-template-columns: auto auto;
+    grid-column-gap: 1em;
+  }
+}
+.product-name{
+   color: #ffcc00;
+   text-decoration: none;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+.add-to-cart,.add-to-whishlist{
+  display: block;
+  color: #fff;
+  background: #ffcc00;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-weight:500;
+}
+.add-to-whishlist{padding-left: 60px;}
+.add-to-cart{padding-left: 50px;}
+.add-to-cart:hover,.add-to-whishlist:hover{
+  color: #ffcc00;
+  border: solid 3px #ffcc00;
+  background-color: #fff;
+  cursor: pointer;
+}

@@ -1,0 +1,141 @@
+*{
+   text-decoration: none;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+header{
+   background: #fff;
+   border-bottom:1px solid #eee;
+   padding: 0 30px;
+   color: #1e030353;
+   width: 100%;
+   position:fixed;
+   top: 0px;
+   z-index: 1000;
+ }
+ header .shopping span{
+   width: 20px; height: 20px;
+   background: red;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   position: absolute;
+   top: 10px;
+   left: 81%;
+   padding: 3px 10px;
+ }
+
+ .sidebars {
+   top: 0;
+   position: fixed;
+   z-index: 100000;
+   right: -300px;
+   width: 250px;
+   height: 100%;
+   background: #fff;
+   font-weight: bold;
+   border-left: 1px solid #eee;
+   box-shadow: 0px 2px 2px #eee;
+   transition:  all 0.3s ease;
+}
+.sidebars .user{
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+   margin-top: 50px;
+   margin-left: 75px;
+}
+.sidebars .user .user-name{text-align: center;}
+.sidebars .user img {
+   height: 100px;
+   width: 100px;
+   border-radius: 50px;
+   margin-bottom: 10px;
+}
+.sidebars ul a {
+   display: block;
+   text-decoration: none;
+   height: 100%;
+   width: 100%;
+   line-height: 65px;
+   font-size:20px;
+   color: #ffcc00;
+   font-size: medium;
+   padding-right: 40px;
+   box-sizing: border-box;
+   border-top: 1px solid #eee;
+   border-bottom: 1px solid #fff;
+}
+.sidebars ul a:hover{
+   padding-left: 20px;
+}
+.sidebars ul a i {
+   margin-right: 16px;
+}
+#btn , #cancel{
+   position: absolute;
+   cursor: pointer;
+}
+/*#btn{
+   right: 40px;
+   top: 25px;
+   font-size: 35px;
+   color: white;
+}*/
+#cancel{
+   z-index: 1111;
+   right: 195px;
+   top: 17px;
+   font-size: 25px;
+   color: #fff;
+   padding: 4px 9px;
+   color: #ffcc00;
+}
+
+
+header i,header span{color: #1e030353;}
+header .navbar .container .menu .navbar-expand-lg .navbar-nav .nav-item .nav-link{color: #1e030353;font-weight: 400; font-size: 18px;}
+header i:hover,header span:hover,.phone:hover{color:#ffcc00;}
+header .navbar .container .menu .navbar-expand-lg .navbar-nav .nav-item .nav-link:hover{color: #ffcc00;}
+.hero .back #carouselExampleDark .carousel-item .carousel-caption .btn{transition: all 0.7s ease;
+ font-weight:500;
+ background: #ffcc00; 
+ color: #fff;
+}
+header .navbar .container .logo .navbar-brand .log-name span{font-size:34px ;font-weight: 600;}
+.hero .back #carouselExampleDark .carousel-indicators.active{background: #ffcc00;}
+a:hover{color: #ffcc00;}
+.hero .back #carouselExampleDark .carousel-item .carousel-caption .btn:hover{background: #ffcc00;border: 0;}
+.hero .back .carousel-inner img{
+filter: grayscale(42%);
+height: 95vh;
+}
+.scrl{
+ background: #fff;
+ height: 83px;
+ align-items: center;
+}
+.scrl .fa-magnifying-glass,.scrl .fa-heart,.scrl .fa-bars,.scrl .fa-cart-shopping{color:#1e030353;}
+.scrl .fa-magnifying-glass:hover,.scrl .fa-heart:hover,.scrl .fa-bars:hover,.scrl .fa-cart-shopping:hover{color:#ffcc00 ;}
+.scrl .fa-plug{color: #ffcc00;}
+.scrl .go_trip{color: #ffcc00;}
+.scrl .menu #navbarNavDropdown .navbar-nav .nav-item .active{
+ color: #ffcc00;
+}
+.scrl .fa-moon,.scrl .fa-sun{
+ color: #000;
+}
+.scrl .menu #navbarNavDropdown .navbar-nav .nav-item .nav-link,.scrl header i,.scrl header span{
+ color:#ffcc00;
+}
+.scrl .menu #navbarNavDropdown .navbar-nav .nav-item .nav-link:hover{
+ color:#ffcc00;
+}
+
+footer .list-group-item a{
+  text-decoration: none;
+  color: #eeeeee63;
+}
